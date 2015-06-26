@@ -1,0 +1,396 @@
+/* my custom gbs additional css */
+
+
+/**
+*  All
+**/
+p {
+font-size: 1.077em;  /* gbs has this as rem but the em worked better for me */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.col-md-12.center {
+    text-align:center;
+}
+
+.ubrmain {
+    color: #444;
+}
+
+/*** Main Page ***/
+
+/* Top part  Masthead/hero and above */
+
+
+.container.tb {
+    max-width: 978px;
+}
+.top-banner {
+min-height: 24px;
+padding: 5px 6px 5px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: #f4f4f4;
+    border-color: #eee;
+}
+
+.navbar {
+    min-height: 10px;
+}
+.navbar .container {
+    max-width: 978px;
+}
+.navbar-collapse ul {
+      padding: 6px 0 0;
+}
+.navbar-collapse li {
+    margin-left: 47px;
+}
+.navbar-collapse li.first {
+    font-weight: bold;
+}
+
+.navbar-collapse li a {
+display: block;
+margin: -6px 0;
+padding: 6px 0;
+    color: #222;
+    font-size: 1.077em;
+    letter-spacing: .25px;
+    line-height: 1.461538462;
+    text-shadow: none;
+}
+
+.jumbotron1 {
+
+    /* gbs cs */
+     background-position: center center;
+     background-size: cover;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(250,250,250,1) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,1)),color-stop(100%,rgba(250,250,250,1)));
+    background: -webkit-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(250,250,250,1) 100%);
+    background: -o-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(250,250,250,1) 100%);
+    background: -ms-linear-gradient(top,rgba(255,255,255,1) 0%,rgba(250,250,250,1) 100%);
+     background: linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(250,250,250,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#f9f9f9',GradientType=0);
+    height: 30.5em;
+    position: relative;
+    /*background-image: url(../images/btscenes-1300.jpeg);*/
+    /*background-image: url(../images/computer-desk-1300.jpg);*/
+    /*background-position: 10% 10%;*/
+    /*height: 429px;*/
+}
+
+.jumbotron1 .container {
+    max-width: 978px;
+}
+
+.hero-figure {
+    /*height: 429px;*/
+    /*background: url(../images/computer-desk-1300.jpg) no-repeat center;*/
+    background: url(../images/compter-coffee-1300-1.jpg) no-repeat center;
+
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    margin-right: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.hero-message {
+    position: absolute;
+    width: 425px;
+    z-index: 2;
+    color: #FFFFFF;
+    top: 5em;
+    text-shadow: 2px 2px 2px #222;
+}
+
+.hero-message .md-display-2 {
+    line-height: 50px;
+}
+
+
+/**
+ * Products and Services Section
+ **/
+
+/* headline */
+
+.fp-top-row {
+
+    padding: 25px;
+    border-bottom: solid 1px #ebebeb;
+}
+
+.pands-heading {
+    font-weight: 300;
+    text-align: center;
+    color:#333;
+    margin: 1.5em 0;
+    font-size:40px;
+}
+
+.ps-icon-link {
+    float: left;
+    background-position: 0 0;
+    height: 46px;
+    width: 46px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pands .fa {
+    font-size: 36px;
+
+}
+
+/*.pands h3 {*/
+    /*font-weight: 300;*/
+    /*line-height: 1.43;*/
+    /*font-size: 1.538em;*/
+    /*margin: .35em 0 .45em;*/
+/*}*/
+
+.main-feature-heading {
+    font-weight: 300;
+    line-height: 1.43;
+    font-size: 35px ;
+    margin: .35em 0 25px;
+
+}
+
+.main-ps-col-content{
+    padding-left: 0;
+    width: 98%;
+}
+
+.ps-col-content{
+    padding-left: 4em;
+    width: 98%;
+}
+.container.pands {
+ max-width: 978px;
+}
+.ps-col-content p {
+line-height: 2em;
+margin-bottom: 5px;
+}
+
+.pands .col-md-6 {
+    min-height: 160px;
+}
+.ps-learn-more {
+color: #4285f4;
+font-size: 14px;
+font-weight: 600;
+}
+
+.md-subhead.fp-bottom-row {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.fa-camera {
+    color: #0000ff;
+}
+
+
+.fa-meetup {color: #d30000;}
+
+.fa-server {
+    color: #bbb;
+}
+
+
+.fa-bullseye {
+    color: #bbb ;
+}
+
+.fa-users {
+    color: #bbb;
+}
+
+.fp-docker-wrapper {
+    width: 350px;
+    -ms-box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,.2);
+    margin:0 auto;
+}
+
+.fp-m-slide-top img {
+    width:350px;
+}
+
+.fp-m-slide-top {
+    height: 230px;
+    overflow: hidden;
+    width: 350px;
+}
+
+
+
+
+
+/**
+*  Services Page
+**/
+
+
+/* header-tron-services */
+
+.row.services {
+    background: #2b47a4;
+}
+
+.row.services h1 {
+    color: #fff;
+    padding: 0 1em;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 300;
+}
+
+
+/* services-tab-links */
+
+ol.tabs-services{text-align: center;
+margin: 50px 0;}
+
+ol.tabs-services li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+.container.services-content {
+ max-width: 978px;
+}
+.tabs-services .md-title {
+    font-weight: 400;
+}
+
+/* service one* */
+
+.row.service, .row.mission, .row.i-who {
+    padding:1.875em 0 5em;
+}
+
+.i-who-img-top {
+    padding:3.5em 0 0;
+}
+
+.service-one {
+    padding:0 0 5em;
+}
+
+.i-service-title, .i-about-title {
+font-weight: 300;
+    font-size: 2.692em;
+    letter-spacing: -.02em;
+    line-height: 1.3;
+}
+
+.i-service-desc, .i-who-desc {
+    margin: 3em auto 2em;
+    max-width: 52em;
+    line-height: 2em;
+    font-size:1.077em
+}
+
+.service-figure {
+    position: relative;
+    margin: 3em auto 2em;
+    text-align: center;
+}
+.service-figure>img {
+    width: 100%;
+    display: block;
+}
+.container.services-content {
+    max-width: 978px;
+}
+
+/**
+* Get pics page
+**/
+
+/* dockers */
+
+.row.dockerr1 {
+    margin-bottom: 1.5em;
+}
+
+
+
+.docker-wrapper {
+    width: 300px;
+    -ms-box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+
+.m-slide-top img {
+    width:300px;
+}
+
+.m-slide-top {
+    height: 200px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.m-slide-bottom {
+    z-index: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.inner-msb-title {
+    font-size: 1.7em;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.inner-msb-desc {
+    font-size: 1.1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.inner-msb-linkto {
+    position: relative;
+
+}
+
+.linkto-anchor {
+    font-weight: normal;
+    border-radius: 50%;
+    line-height: 13px;
+    height: 14px;
+    width: 14px;
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0 5px 0 0;
+    float: left;
+    background-color: #457eff;
+    color:#fff !important;
+}
+
+

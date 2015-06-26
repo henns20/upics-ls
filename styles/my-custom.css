@@ -1,0 +1,195 @@
+/* my custom additional css */
+
+
+/**
+ * Main Page
+ * Masthead | based off a Uber.com masthead css
+ * background image.. see dev notes
+ **/
+
+/* Masthead */
+.slide-image-viewport {
+    height: 95vh;
+    max-height: 500px;
+}
+.slide1 {
+    background-image: url(../images/btscenes-1000.jpg);
+}
+.slide-image {
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    right: 5%;
+    left:5%;
+}
+
+.carousel-caption-xs{
+    position: absolute;
+    right: 5%;
+    left:5%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.carousel-caption-s{display:none}
+.carousel-caption-md{display:none}
+.carousel-caption-lg {display:none}
+.main-sub {padding: 0 20px;}
+
+
+/* Navbar  make like uber transparent */
+
+.navbar-wrapper {
+    background-color: rgba(13, 13, 13, 0.35);
+    border-bottom: 1px solid #adadad;
+    margin-top: 0;
+}
+.navbar {
+    margin-bottom: 10px;
+}
+
+.navbar-inverse .jh-navbar-brand {
+    color:#fff;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border: transparent;
+    padding-top: 10px;
+}
+
+.jh-navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 480px) {
+
+    /* masthead */
+    .slide1 {
+        background-image: url(../images/btscenes-1000.jpg);
+
+    }
+    .carousel-caption-xs{ display:none;}
+    .carousel-caption-md{ display:none;}
+    .carousel-caption-lg{ display:none;}
+    .carousel-caption-s{
+        display:block;
+        position: absolute;
+        right: 5%;
+        left:5%;
+        bottom: 20px;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+    /* masthead */
+    .slide1 {
+        /*background-image: url(../images/btscenes-1600.jpg);*/
+        /*background-image: url(../images/computer-desk-1300.jpg);*/
+    }
+
+    .slide-image {
+        height: 100%;
+        width: 100%;
+        background-position: 0% 95%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .carousel-caption-xs{ display:none;}
+    .carousel-caption-s{ display:none;}
+    .carousel-caption-lg{ display:none;}
+    .carousel-caption-md{
+        display:block;
+        position: absolute;
+        bottom: 20px;
+        width:70%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    }
+    .carousel-caption-md h1 {
+        /*background: #153e6a;*/
+        color: #ffffff;
+        text-shadow: 2px 2px 2px #222;
+        /*background: rgba(0, 0, 0, 0.6);*/
+        /*background-color: rgba(21, 62, 106, 0.6);*/
+        padding: 16px 15px 16px 15px;
+        font-weight:600;
+    }
+    .carousel-caption-md .main-sub {
+        /*background-color: rgba(21, 62, 106, 0.6);*/
+    /*background: rgba(0, 0, 0, 0.6);*/
+    /*text-align: left;*/
+    /*padding: 18px 30px 10px;*/
+    }
+
+    .main-sub {padding: 0px;}
+}
+
+@media (min-width: 992px) {
+    .slide1 {
+        background-image: url(../images/btscenes-1600.jpg);
+    }
+    .slide-image {
+        height: 100%;
+        width: 100%;
+        background-position: 0% 95%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .carousel-caption-xs{ display:none;}
+    .carousel-caption-s{ display:none;}
+    .carousel-caption-md{ display:none;}
+    .carousel-caption-lg{
+        display:block;
+        position: absolute;
+        bottom: 40px;
+        width:65%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    }
+    .carousel-caption-lg h1 {
+        color: #ffffff;
+        text-shadow: 2px 2px 2px #222;
+        font-weight:600;
+        margin-bottom: 0px;
+        line-height: 50px;
+    }
+    .main-sub {padding: 0px;}
+}
