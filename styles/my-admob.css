@@ -1,0 +1,60 @@
+/** using admob as the guidline
+*  the first go at the style sheet  separated by page and section
+**/
+
+
+/* overall */
+
+html, body {
+background: #f4f4f4;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-bottom:solid 1px #eee;
+}
+
+
+/* main page */
+
+.container.tb {
+    min-height: 44px;
+}
+
+.jumbotron1 {
+    text-align: center;
+}
+.hero-message.hero-home {
+margin: -0.4em 0 .5em;
+    position: relative;
+    z-index: 2;
+    color: #FFFFFF;
+
+    text-shadow: 2px 2px 2px #222;
+}
+
+.hero-callout-headline, .hero-callout-image {text-align: center}
+
+i.fa-meetup, i.fa-map-marker  {font-size: 96px;}
+.hero-callouts {
+    margin-top: -100px;
+    text-align: center;
+}
+
+.hero-headline {font-size: 47px;}
+.hero-callout-headline {font-size:25px;  font-weight: 400; color: #444;
+    margin: 0 0 25px 0;}
+.material-card {
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 25px;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 -3px 5px rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.2);
+
+}
+
+
+
+
