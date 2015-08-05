@@ -1,0 +1,21 @@
+/* css for the guide container on peek's individual page */
+
+
+.pk-guide-container {width: 360px; height: 214px; padding: 5px; background-color: white;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;}
+
+.guide-header-text-link {padding: 4px 0 0 0;
+    height:34px;  color: #30a0ff; font-size: 15px; margin:0px;
+    font-weight: 400;
+text-align: center;
+}
+
+.guide-img-full {height: 100%;overflow: hidden;}
+.pk-guide-container .row {margin: 0;}
+.pk-guide-container-content-right.col-md-6 {padding: 0; }
+.pk-guide-container-content-left.col-md-6 {padding: 0;}
+.guide-img-half {width: 100%;}
+.guide-img-half img {object-fit: cover; width: 175px; height: 85px; padding: 1px;}
+.guide-img-full img {height: 170px; padding: 1px;}

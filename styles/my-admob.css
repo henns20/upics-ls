@@ -5,7 +5,7 @@
 
 /* overall */
 
-html, body {
+body {
 background: #f4f4f4;
 }
 
@@ -55,6 +55,133 @@ i.fa-meetup, i.fa-map-marker  {font-size: 96px;}
 
 }
 
+.hero-message.hero-home {z-index: 100;}
+.hero-headline {color: #fff; z-index: 1000; text-shadow: 0 1px 1px #222;}
+
+.cta-admob-btn {
+    border: 0;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.54;
+    padding: 7px 12px;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.08);
+    background: #4285f4;
+}
+
+a.cta-admob-btn {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.cta-admob-btn:hover, .cta-admob-btn:focus {background-color: #396bbc;}
+.p-hero {margin-top: 10px; color: #fff;}
+
+/* Services page */
+
+ol.tabs-services {
+    margin: 10px 0;
+}
+
+.ol.tabs-services a {
+    color: #444;
+}
+.i-service-title {
+    font-size: 47px;
+    color: #245dc1;
+}
+
+.service-intro-p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.service-intro {
+    text-align: center;
+    padding: 40px 50px 60px 50px;
+}
+
+.card-feature-blurb {
+    font-size: 26px;
+    margin: 0;
+    font-weight: 300;
+    color: #245dc1;
+    margin-bottom: 10px;
+}
+
+.card-section {
+padding: 50px 0;
+margin: 0 50px;
+border-bottom: 1px solid #f4f4f4;
+}
+
+.service-figure {
+    position: relative;
+    margin: 1em auto 1em;
+    text-align: center;
+}
+
+.service-figure>img {box-shadow: 3px 3px 5px rgba(8, 8, 8, 0.33),0 6px 2px 0 rgba(19, 18, 18, 0.42);}
 
 
+/** group page **/
 
+.i-service-title-group {
+    font-size: 47px;
+    color: #e51937;
+    font-weight: 300;
+}
+
+/**
+*  3. the pics gallery page
+**/
+
+/** gallery content area gray
+* requirement: reversing the body to white and the pics gallery area to gray - to keep similar effect to peek on on the components
+**/
+
+body.pics-gallery {
+    background:#f4f4f4 !important;
+}
+
+.pics-gallery-tb-wrapper {
+    background: #f4f4f4;
+}
+.container.tb.the-pics-gallery-content {
+    background: #ffffff;
+    /*min-width: 930px;*/
+    /*max-width: 1200px !important; these did not work for some reason */
+}
+
+body.pics-gallery .material-card {
+    background: #f4f4f4! important;
+    box-shadow:none;
+    /* note: commented out body height 100% in angular-material.css  bc body was stopping at 403 px for some reason*/
+}
+
+.container.tb.pics-gallery  {
+    background: #f4f4f4;
+}
+
+
+/* container main content area */
+
+.container.the-pics-gallery-content {
+    min-width: 930px;
+}
+
+.service-intro-pics-gallery {
+    text-align: center;
+    padding: 40px 50px 30px 50px;
+}
+
+.itinerary-row {
+    padding: 20px 15px;
+}

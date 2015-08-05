@@ -1,0 +1,75 @@
+.pk-gc-list-item img {
+    object-fit: cover;
+    width: 264px; height: 174px;
+    box-shadow: 3px 3px 5px rgba(8, 8, 8, 0.33),0 6px 2px 0 rgba(19, 18, 18, 0.42);
+
+
+}
+
+.pk-outer-gc-container {
+    position: relative;
+    margin: 0 22px 22px 0;
+    background-color: #fff;
+    box-shadow: inset 0 0 6px #aaa;
+    padding: 10px 10px 15px;
+    width: 1140px;
+}
+
+.region-1-carousel {
+
+    padding: 10px 20px;
+}
+
+.pk-inner-container {
+    width: 1135px;
+    list-style: none;
+    padding: 30px 15px;
+
+}
+.pk-inner-container { padding: 0 5px; }
+.region-v1-section-header {margin: 15px 0 10px; font-size:25px; font-weight: 300; color: #245dc1;}
+
+
+/* www.peek.com/media="all"
+www.peek.com/media="all"
+@media screen and (min-width: 1000px)
+*/
+
+
+.gradient-footer .footer-item {
+    text-shadow: 1px 1px 3px black, 2px 3px 5px #222, -1px -1px 2px #333;
+    line-height: 10px;
+    font: normal 1em SofiaProRegular,"Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.gradient-footer {
+    font-size: 16px !important;
+}
+
+.gradient-footer {
+    position: absolute;
+    display: "inline-block";
+    right: 0;
+    bottom: 0;
+    left: 14px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#CC000000');
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.8)));
+    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -ms-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    padding: 0px 12px 0px; /* cahnge the top and bottom padding to 0 bc h4 has natural maring in */
+    margin: 0;
+    width:266px;
+
+}
+
+.gradient-footer .footer-item .sub-content {display: block;
+    font-size: .70em;
+    color: #dbdbdb;
+    text-transform: uppercase;
+}
