@@ -111,3 +111,16 @@ width: 100px;
 a.moduleHeaderTitle-link {
     text-decoration: none;
 }
+
+.pk-itinerary-container {
+    width: 342px;
+    height: 250px;
+    /* margin: 0 22px 22px 0; */
+    position: relative;
+}
+
+.my1170-container {
+    width: 1170px;
+    padding: 25px;
+    margin: 0 auto;
+}

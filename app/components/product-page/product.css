@@ -69,3 +69,6 @@ html, body {
 .button-container .cta-admob-btn {
  font-size: 1.25em;
 }
+
+.gb-express-card {box-shadow: 0 -3px 5px rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.2);}
+.product-right-top-padding {margin-top: 40px;}

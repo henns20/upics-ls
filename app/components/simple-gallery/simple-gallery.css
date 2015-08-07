@@ -1,0 +1,43 @@
+.card-1 .headlineText {
+    font-size: 1.72em;
+    line-height: 1em;
+    overflow: hidden;
+    padding-bottom: 6px;
+    white-space: nowrap;
+}
+
+.card-1 .subheadText {
+    font-size: 1.14em;
+    overflow: hidden;
+    padding-bottom: 3px;
+    white-space: nowrap;
+    line-height: 1em;
+}
+
+.card-1 .callToAction  {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-1 {margin-bottom: 25px;}
+
+.card-1 .contentPanel {
+    background: #fff;
+    color: #000;
+    padding: 4px 16px 4px;
+    text-align: left;
+    width: 350px
+}
+
+/*.simple-gallery-container {width: 100%; margin: 0 12px;}*/
+
+.littlelongimg-joto img {
+    object-fit: cover;
+    width: 137px;
+    height: 25px;
+}
+
+.littlelongimg-joto {position: absolute;
+    right: 10px;
+    bottom: 28px;
+}}

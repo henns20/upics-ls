@@ -22,10 +22,19 @@ A.Layout Architecture and schema - (using flexbox and angular material)
 B. Front Page
  - 90% there
  - using peek as the above the fold model 
- 1. header/hero
+ 1. / header/hero
     a. caption 50% - starting message/color/size(font and the box)/positioning
-    b benefits section 
+ 2. / benefits section
+    a. paragraphs need copy 
+    b. header go back to the original ones and put the iconse in between
+    c. Simple gallery - goes on the first one. 
+        - using ng-repeat 
+        - using it without a database
         
+        
+       
+        
+    
   
   
 C./ Product page stuff 
