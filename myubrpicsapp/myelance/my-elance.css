@@ -1,0 +1,6 @@
+/** my elance css **/
+
+.image-container img {
+    object-fit: cover;
+    height: 350px;
+}

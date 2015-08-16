@@ -1,0 +1,53 @@
+.image-container-pics {
+
+}
+
+.profile-pic-card {
+    width: 250px;
+    background: #fff;
+    margin: 0 6px 50px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+
+.ppc-image-container {
+    position: relative;
+}
+
+.ppc-image-container img {
+    object-fit: cover;
+    max-height: 166px;
+    width: 250px;
+}
+
+.littleimg, .littlelongimg {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.littleimg img {
+    width: 40px;
+    height: 40px;
+}
+
+.ppc-headlineText {
+    font-size: 1.35em;
+    line-height: 1.15em;
+    overflow: hidden;
+    margin: 8px 0 8px;
+    white-space: nowrap;
+    padding: 0 8px;
+}
+
+.ppc-subheadText {
+    font-size: .85em;
+    overflow: hidden;
+    padding: 0 8px;
+    color: #333;
+    line-height: 1.1em;
+}
+
+.ppc-price {
+    margin:8px 0;
+    padding: 8px 0 0 8px;
+}

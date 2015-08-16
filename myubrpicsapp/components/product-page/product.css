@@ -38,14 +38,25 @@ html, body {
 }
 .product-info-header {
     font-weight: bold;
+    margin: 5px 0;
 }
+
+.product-description p, .more-information p {
+font-size: .95em;
+}
+
+.product-info-title {
+    font-size: 1.25em;
+    margin: 0 0 15px;
+}
+
 .product-price {
     font-size: 1.5em;
     font-weight: bold;
     padding-left: 8px;
 }
 .signup-info {
-    font-size: 1.25em;
+    font-size: 1em;
     width: 80%
 }
 .discount-info {
@@ -54,11 +65,11 @@ html, body {
 
 .button-container {
     text-align: center;
-    padding-top: 10px
+    padding: 10px 0;
 }
 
 .calendar-mock-container {
-    margin: 20px 0;
+    margin: 20px 0 0;
 }
 
 .product-description {

@@ -1,0 +1,109 @@
+html, body {
+    font-family: 'Roboto',sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background:#fff;
+}
+
+header {
+    /*padding-bottom: 10px;*/
+    /*margin-bottom: 20px; see notes Y for both */
+}
+
+.header-inner-wrapper {
+
+    width: 100%;
+    min-height: 46px;
+    border-bottom: 1px solid #939393;
+    margin-top: 10px;
+}
+
+
+.headline {
+    font-weight: normal;
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+}
+
+.subheadline {
+    text-align: center;
+    color: #333;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 5px 0;  /* not in myelance */
+    width:60%;
+}
+
+.main {
+    min-height: 400px;
+    padding-top: 30px; /* see notes Y */
+}
+
+
+
+.splash-content-container {
+    margin-top: 28px;
+    margin-bottom: 200px;
+}
+
+.login-nav-container {border-left: solid 1px #ccc;}
+
+.splash-right-bottom {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: dotted 1px #ccc;
+}
+
+
+
+/* pics page styles */
+
+.main-wrapper {
+    background: #f4f4f4;
+}
+
+.main-inside {
+    background: #f4f4f4;
+    min-height:500px
+}
+
+.main-pics-app {
+    background: #f4f4f4;
+}
+
+md-sidenav.md-locked-open {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+/*.bottom-hr  {*/
+    /*background: #f4f4f4;*/
+/*}*/
+.pic-app-sect {
+    /*background: #f4f4f4;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+*
+**/
+
+@media (min-width: 600px) {
+    .container {
+        width: 1024px;
+        margin: 0 auto;
+        /*background: #eee;*/
+
+    }
+}
